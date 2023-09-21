@@ -8,7 +8,7 @@ public class Main {
             Menu.show();
             Menu.readOption(storage);
         } catch (IOException e) {
-            System.out.println("Imposible leer de el fichero de datos");
+            System.out.println("Imposible leer del fichero de datos");
         }
     }
 }
